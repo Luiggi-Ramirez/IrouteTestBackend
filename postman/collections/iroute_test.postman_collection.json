@@ -17,17 +17,19 @@
             {
               "key": "file",
               "type": "file",
-              "src": "/C:/Users/usuario/Desktop/commerce_21032025.csv"
+              "src": [
+                "/C:/Users/usuario/Desktop/commerce_21032025.csv"
+              ]
             }
           ]
         },
         "url": {
-          "raw": "http://localhost:5268/api/commerce/upload",
+          "raw": "http://localhost:5000/api/commerce/upload",
           "protocol": "http",
           "host": [
             "localhost"
           ],
-          "port": "5268",
+          "port": "5000",
           "path": [
             "api",
             "commerce",
@@ -53,12 +55,12 @@
           }
         },
         "url": {
-          "raw": "http://localhost:5268/api/commerce/process-validation",
+          "raw": "http://localhost:5000/api/commerce/process-validation",
           "protocol": "http",
           "host": [
             "localhost"
           ],
-          "port": "5268",
+          "port": "5000",
           "path": [
             "api",
             "commerce",
@@ -83,17 +85,19 @@
             {
               "key": "file",
               "type": "file",
-              "src": "/C:/Users/usuario/Desktop/commerce_21032025.csv"
+              "src": [
+                "/C:/Users/usuario/Desktop/commerce_21032025.csv"
+              ]
             }
           ]
         },
         "url": {
-          "raw": "http://localhost:5268/api/commerce/quarentine",
+          "raw": "http://localhost:5000/api/commerce/quarentine",
           "protocol": "http",
           "host": [
             "localhost"
           ],
-          "port": "5268",
+          "port": "5000",
           "path": [
             "api",
             "commerce",
