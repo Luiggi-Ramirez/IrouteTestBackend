@@ -1,0 +1,107 @@
+{
+  "info": {
+    "_postman_id": "6696539c-d466-4fe2-ae0f-e1360690283b",
+    "name": "iroute_test",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "upload",
+      "id": "3e169b94-02ff-4094-a140-009e6f8ca92e",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "file",
+              "type": "file",
+              "src": "/C:/Users/usuario/Desktop/commerce_21032025.csv"
+            }
+          ]
+        },
+        "url": {
+          "raw": "http://localhost:5268/api/commerce/upload",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5268",
+          "path": [
+            "api",
+            "commerce",
+            "upload"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "validation",
+      "id": "37ad7c5f-ed51-48d6-baa0-f722b21b4f9a",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"processDate\": \"2025-03-21\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5268/api/commerce/process-validation",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5268",
+          "path": [
+            "api",
+            "commerce",
+            "process-validation"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "all",
+      "id": "03aefca2-2ea1-4d33-aa2f-d6c8c81360b3",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "file",
+              "type": "file",
+              "src": "/C:/Users/usuario/Desktop/commerce_21032025.csv"
+            }
+          ]
+        },
+        "url": {
+          "raw": "http://localhost:5268/api/commerce/quarentine",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5268",
+          "path": [
+            "api",
+            "commerce",
+            "quarentine"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
