@@ -1,13 +1,14 @@
 # IrouteTestBackend
 ## Ejecución
+### Principal
+1. Clonar el repositorio en Visual Studio
+
 ### Setear la base de datos
 1. Crear la base de datos iroute_db_test en MySql en mi caso use XAMPP
 2. Ejecutar el contenido del archivo sql del proyecto en la base de datos creada
 
 ### Ejecutar el proyecto
-1. Clonar el repositorio en Visual Studio
-2. Restaurar los paquetes NuGet
-3. Iniciar el server
+1. Iniciar el server
 
 ### Ejecutar los tests
 1. Abrir postman
