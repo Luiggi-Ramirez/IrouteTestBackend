@@ -14,6 +14,7 @@
 1. Abrir postman
 2. Importar la colección iroute_test.postman_collection.json
 3. Ejecutar los endpoints de la colección
+4. Para el post de subida se pueden usar los archivos csv que estan en el proyecto 
 
 ### Información adicional
 - El proyecto utiliza .NET 8
